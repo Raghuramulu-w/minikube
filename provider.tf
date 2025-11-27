@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "dawssbucket"
+    bucket = "dawss3bucket"
     key    = "minikube"
     region = "us-east-1"
     dynamodb_table = "mydynamodb-table"
